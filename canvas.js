@@ -94,7 +94,7 @@ function init() {
     circlesArray = [];
 
     for( var i = 0; i < 2000; i++) {
-        var radius = Math.random() * 8 + 1;
+        var radius = Math.random() * 3 + 1;
         var x = Math.random() * (innerWidth - radius * 2) + radius;
         var y = Math.random() * (innerHeight - radius * 2) + radius;
         var dx = (Math.random() - 0.5); // x velocity
